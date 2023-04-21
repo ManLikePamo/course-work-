@@ -1,0 +1,38 @@
+.featured-products div img{
+  height: 250px;
+  width: 240px;
+}
+
+.PRODUCTS div img{
+  height: 250px;
+  width: 240px;
+}
+.product{
+  border: 0.5px solid black;
+  border-radius: 6px;
+  padding: 5px;
+  margin: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+.product:hover{
+  transform: translate(-10px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+footer{
+  margin-top: 20px;
+  background-color: #313842;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  text-align: justify;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+.navbar1{
+    position: fixed;
+    width: 100%;
+  }
